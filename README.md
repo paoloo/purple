@@ -27,3 +27,8 @@ curl -X PUT -H "Content-Type: application/json" -d '{"id":11, "url": "www.bb.com
 curl -X DELETE http://localhost:8080/bookmark/2
 ```
 
+**run with:**
+```bash
+lein deps
+lein run
+```
